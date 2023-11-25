@@ -3,7 +3,7 @@
 # Selenium Web Scraping
 
 <div align="center">
-  <img src="https://en.m.wikipedia.org/wiki/File:Selenium_logo.svg" alt="Selenium Logo" width="500" height="259">
+  <img src="https://upload.wikimedia.org/wikipedia/commons/9/9f/Selenium_logo.svg" alt="Selenium Logo" width="500" height="259">
 </div>
 
 
