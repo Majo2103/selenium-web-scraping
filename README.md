@@ -1,5 +1,3 @@
-# Selenium-Web-Scrapping
-
 # Selenium Web Scraping
 
 <div align="center">
