@@ -1,0 +1,6 @@
+from selenium import webdriver
+
+website = 'que_vamos_a_usar.com'
+path = 
+driver = webdriver.Chrome(path)
+driver.get(website)
