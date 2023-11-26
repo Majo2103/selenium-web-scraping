@@ -7,7 +7,7 @@ docker-compose build
 docker-compose up -d  # El flag -d permite ejecutar los contenedores en segundo plano
 
 # Espera unos segundos para asegurar que los contenedores estén en funcionamiento
-sleep 5
+sleep 3
 
 # Abre el navegador en la dirección localhost:8888
 # Ajusta este comando según tu sistema operativo

@@ -11,6 +11,7 @@ services:
 
   selenium-hub:
     image: selenium/standalone-chrome:119.0
+    #image: seleniarm/standalone-chromium:latest
     hostname: selenium-hub
     privileged: true
     shm_size: 2g
