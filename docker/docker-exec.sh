@@ -4,7 +4,7 @@
 docker-compose build
 
 # Docker image run 
-docker-compose up -d  # El flag -d permite ejecutar los contenedores en segundo plano
+docker-compose up  # El flag -d permite ejecutar los contenedores en segundo plano
 
 # Espera unos segundos para asegurar que los contenedores estén en funcionamiento
 sleep 3
