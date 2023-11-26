@@ -1,0 +1,25 @@
+services:
+  jupyterlab:
+    build:
+      context: .
+      dockerfile: Dockerfile
+    ports:
+      - "8888:8888"
+
+  selenium-hub:
+    image: selenium/standalone-chrome:latest
+    deploy:
+      resources:
+        limits:
+          memory: 2g
+    volumes:
+      - ../Notebooks:/app/Notebooks  
+    environment:
+      - HUB_HOST=selenium-hub
+      - HUB_PORT=4444
+      - SE_NODE_MAX_SESSIONS=4
+      - SE_NODE_SESSION_TIMEOUT=12
+      - SE_VNC_NO_PASSWORD=1
+    restart: always
+    ports:
+      - "4444:4444"
