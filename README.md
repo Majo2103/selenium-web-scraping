@@ -7,9 +7,6 @@
 
 This repository contains an executble script `selenium/standalone-chrome` Docker image, providing a Selenium server with the Chrome browser. Additionally, it includes configurations for creating a virtual environment to perform web scraping tasks and format the extracted data for convenient handling in a DataFrame.
 
-## Key Components:
-
-- [Task](#task)
 
 Follow these steps to set up and work with this repository:
 
@@ -25,7 +22,7 @@ Clone the forked repository to your local machine.
 Using the terminal, move to the exec directory an run 
 <code>./setup.sh</code>
 
-# 3.1 If having problems with the executable
+### 3.1 If having problems with the executable
 Manually create a python environment:
 <code>python3 -m venv "$VENV_NAME"
 source "$VENV_NAME/bin/activate"
