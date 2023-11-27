@@ -29,9 +29,9 @@ docker run -d --name "sel-docker" -p 4444:4444 --shm-size=2g \
 code .
 
 if command -v xdg-open &> /dev/null; then
-    xdg-open http://localhost:8888
+    xdg-open http://localhost:4444
 elif command -v open &> /dev/null; then
-    open http://localhost:8888
+    open http://localhost:4444
 else
     echo "No se pudo abrir el navegador automáticamente. Abre tu navegador y visita http://localhost:8888"
 fi
