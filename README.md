@@ -4,7 +4,8 @@
   <img src="https://upload.wikimedia.org/wikipedia/commons/9/9f/Selenium_logo.svg" alt="Selenium Logo" width="500" height="259">
 </div>
 
-
+# [Canva presentation]
+(https://www.canva.com/design/DAF06xLeqlE/PidPzTXs1nAHa52RaZ9OJQ/view)
 
 This repository contains an executble script to create a Docker container of`selenium/standalone-chrome` image, providing a Selenium server with the Chrome browser. Additionally, it includes configurations for creating a virtual environment to perform web scraping tasks and format the extracted data for convenient handling with pandas.
 
