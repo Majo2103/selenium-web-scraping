@@ -24,7 +24,7 @@ Una vez instalado, les deberá aparecer algo así:
 pip install selenium
 
 
-This repository contains all the necessary files to implement the `selenium/standalone-chromium` Docker image, providing a Selenium server with the Chromium browser. Additionally, it includes configurations for creating a virtual environment to perform web scraping tasks and format the extracted data for convenient handling in a DataFrame.
+This repository contains all the necessary files to implement the `selenium/standalone-chrome` Docker image, providing a Selenium server with the Chromium browser. Additionally, it includes configurations for creating a virtual environment to perform web scraping tasks and format the extracted data for convenient handling in a DataFrame.
 
 ## Key Components:
 
