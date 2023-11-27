@@ -48,7 +48,7 @@ docker run -d --name "sel-docker" -p 4444:4444 --shm-size=2g \
 ### 4. Make sure docker container is up and python environment is active
 Hint: <code>docker ps</code>
 
-### 5. Work with the notebooks
+### 5. Work with the [notebooks](https://github.com/Majo2103/selenium-web-scrapping/tree/master/jupyter-notebooks)
 
 ## Task
-Follow the instructions on the corresponding[jupyter-notebooks](./jupyter-notebooks/)
+Follow the instructions on the corresponding [jupyter-notebooks](https://github.com/Majo2103/selenium-web-scrapping/blob/master/jupyter-notebooks/tarea_webscraping.ipynb)
