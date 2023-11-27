@@ -39,8 +39,8 @@ Manually start the docker container:
 <br>
 ````md
 docker run -d --name "sel-docker" -p 4444:4444 --shm-size=2g \
-  -e SE_NODE_MAX_SESSIONS=4 \
-  -e SE_NODE_SESSION_TIMEOUT=30 \
+  -e SE_NODE_MAX_SESSIONS=6 \
+  -e SE_NODE_SESSION_TIMEOUT=300 \
   -e SE_VNC_NO_PASSWORD=1 \
   selenium/standalone-chrome
 ````
