@@ -19,4 +19,5 @@ docker run -d --name "sel-docker" -p 4444:4444 --shm-size=2g \
   -e SE_NODE_SESSION_TIMEOUT=30 \
   -e SE_VNC_NO_PASSWORD=1 \
   selenium/standalone-chrome
+
 code .
