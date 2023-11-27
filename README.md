@@ -42,4 +42,4 @@ Hint: <code>docker ps</code>
 ## 5. Work with the notebooks
 
 ## Task
-Follow the instructions on the corresponding jupyter notebook.
+Follow the instructions on the corresponding[jupyter-notebooks].(./jupyter-notebooks/)
