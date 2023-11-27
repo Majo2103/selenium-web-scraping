@@ -40,7 +40,7 @@ Manually start the docker container:
 <code>docker run -d --name "sel-docker" -p 4444:4444 --shm-size=2g selenium/standalone-chrome</code>
 
 
-## 4. Make docker container is up and python environment is active
+## 4. Make sure docker container is up and python environment is active
 Hint: <code>docker ps</code>
 
 ## 5. Work with the notebooks
