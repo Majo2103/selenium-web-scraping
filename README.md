@@ -6,7 +6,7 @@
 
 ## [Canva presentation](https://www.canva.com/design/DAF06xLeqlE/PidPzTXs1nAHa52RaZ9OJQ/view)
 
-This repository contains an executble script to create a [Docker](https://www.docker.com/get-started/) container of`selenium/standalone-chrome` image, providing a Selenium server with the Chrome browser. Additionally, it includes configurations for creating a virtual environment to perform web scraping tasks and format the extracted data for convenient handling with pandas.
+This repository contains an executble script to create a [Docker](https://www.docker.com/get-started/) container of `selenium/standalone-chrome` image, providing a Selenium server with the Chrome browser. Additionally, it includes configurations for creating a virtual environment to perform web scraping tasks and format the extracted data for convenient handling with pandas.
 
 
 Follow these steps to set up and work with this repository:
