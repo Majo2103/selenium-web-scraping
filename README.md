@@ -43,7 +43,7 @@ docker run -d --name "sel-docker" -p 4444:4444 --shm-size=2g \
   -e SE_NODE_SESSION_TIMEOUT=30 \
   -e SE_VNC_NO_PASSWORD=1 \
   selenium/standalone-chrome
-````md
+````
 
 ### 4. Make sure docker container is up and python environment is active
 Hint: <code>docker ps</code>
