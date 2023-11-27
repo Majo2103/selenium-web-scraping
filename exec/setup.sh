@@ -14,15 +14,15 @@ pip install --no-cache-dir -r requirements.txt
 python -m ipykernel install --user --name="$VENV_NAME"
 
 pip install ipykernel==6.26.0
-pip install webdriver-manager==4.0.0
 pip install selenium==4.12.0
+pip install webdriver-manager==4.0.0
 pip install chromedriver-binary==116.0.5845.96.0
 
 rm -r requirements.txt
 
 docker run -d --name "sel-docker" -p 4444:4444 --shm-size=2g \
-  -e SE_NODE_MAX_SESSIONS=4 \
-  -e SE_NODE_SESSION_TIMEOUT=30 \
+  -e SE_NODE_MAX_SESSIONS=6 \
+  -e SE_NODE_SESSION_TIMEOUT=60 \
   -e SE_VNC_NO_PASSWORD=1 \
   selenium/standalone-chrome
 
