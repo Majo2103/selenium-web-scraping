@@ -5,6 +5,7 @@
 </div>
 
 
+
 This repository contains an executble script to create a Docker container of`selenium/standalone-chrome` image, providing a Selenium server with the Chrome browser. Additionally, it includes configurations for creating a virtual environment to perform web scraping tasks and format the extracted data for convenient handling with pandas.
 
 
@@ -25,8 +26,7 @@ Using the terminal, move to the exec directory an run
 ### 3.1 If having problems with the executable
 Manually create a python environment:
 <br>
-<code>
-cp requirements.txt ../jupyter-notebooks
+<code>cp requirements.txt ../jupyter-notebooks
 cd ..
 cd jupyter-notebooks
 python3 -m venv "$VENV_NAME"
