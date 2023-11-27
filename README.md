@@ -25,7 +25,11 @@ Using the terminal, move to the exec directory an run
 ### 3.1 If having problems with the executable
 Manually create a python environment:
 <br>
-<code>python3 -m venv "$VENV_NAME"
+<code>
+cp requirements.txt ../jupyter-notebooks
+cd ..
+cd jupyter-notebooks
+python3 -m venv "$VENV_NAME"
 source "$VENV_NAME/bin/activate"
 pip install -r requirements.txt
 python -m ipykernel install --user --name="$VENV_NAME"
