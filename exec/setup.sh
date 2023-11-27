@@ -1,20 +1,22 @@
 #!/bin/bash
 
-# Nombre del entorno virtual
 VENV_NAME=".env-web-scrap"
 
 cp requirements.txt ../jupyter-notebooks
 cd ..
 cd jupyter-notebooks
-# Crear y activar el entorno virtual
-python3 -m venv "$VENV_NAME"
+
+python3.9 -m venv "$VENV_NAME"
 source "$VENV_NAME/bin/activate"
-# Instalar requirements.txt en el entorno virtual
+
+pip install --upgrade pip
 pip install -r requirements.txt
 python -m ipykernel install --user --name="$VENV_NAME"
 rm -r requirements.txt
-echo "Entorno virtual configurado."
 
-docker run -d --name "sel-docker" -p 4444:4444 --shm-size=2g selenium/standalone-chrome
-echo "Contenedor con ChromeDriver encendido."
+docker run -d --name "sel-docker" -p 4444:4444 --shm-size=2g \
+  -e SE_NODE_MAX_SESSIONS=4 \
+  -e SE_NODE_SESSION_TIMEOUT=30 \
+  -e SE_VNC_NO_PASSWORD=1 \
+  selenium/standalone-chrome
 code .
