@@ -37,6 +37,7 @@ Manually start the docker container:
 
 
 ## 4. Make docker container is up and python environment is active
+Hint: <code>docker ps</code>
 
 ## 5. Work with the notebooks
 
