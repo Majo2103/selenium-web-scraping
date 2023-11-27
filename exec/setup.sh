@@ -10,7 +10,7 @@ python3 -m venv "$VENV_NAME"
 source "$VENV_NAME/bin/activate"
 
 pip install --upgrade pip
-pip install -r requirements.txt
+pip install --no-cache-dir -r requirements.txt
 python -m ipykernel install --user --name="$VENV_NAME"
 rm -r requirements.txt
 
