@@ -6,7 +6,7 @@ cp requirements.txt ../jupyter-notebooks
 cd ..
 cd jupyter-notebooks
 
-python3.9 -m venv "$VENV_NAME"
+python3 -m venv "$VENV_NAME"
 source "$VENV_NAME/bin/activate"
 
 pip install --upgrade pip
