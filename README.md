@@ -52,3 +52,5 @@ Hint: <code>docker ps</code>
 
 ## Task
 Follow the instructions on the corresponding [jupyter-notebooks](https://github.com/Majo2103/selenium-web-scrapping/blob/master/jupyter-notebooks/tarea_webscraping.ipynb)
+
+[Small tutorial](https://youtu.be/lTypMlVBFM4?si=k16QnTV0jwjNGKRU)
