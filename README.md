@@ -29,8 +29,8 @@ Manually create a python environment:
 <code>cp requirements.txt ../jupyter-notebooks
 cd ..
 cd jupyter-notebooks
-python3 -m venv "$VENV_NAME"
-source "$VENV_NAME/bin/activate"
+python3 -m venv .env-web-scrap
+source .env-web-scrap/bin/activate"
 pip install -r requirements.txt
 python -m ipykernel install --user --name="$VENV_NAME"
 rm -r requirements.txt</code>
@@ -40,7 +40,7 @@ Manually start the docker container:
 ````md
 docker run -d --name "sel-docker" -p 4444:4444 --shm-size=2g \
   -e SE_NODE_MAX_SESSIONS=6 \
-  -e SE_NODE_SESSION_TIMEOUT=300 \
+  -e SE_NODE_SESSION_TIMEOUT=1200 \
   -e SE_VNC_NO_PASSWORD=1 \
   selenium/standalone-chrome
 ````
